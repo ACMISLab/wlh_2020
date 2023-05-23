@@ -1,3 +1,3 @@
-scikit-learn==1.0.2
-matplotlib==3.4.1
-numpy==1.20.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:64b8718ddf2b95709533292bf29dcbbd685a88025b7762fe7028b2be7400b20f
+size 53

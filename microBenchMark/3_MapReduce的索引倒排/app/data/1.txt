@@ -1,7 +1,3 @@
-1号店 3 n
-1號店 3 n
-4S店 3 n
-4s店 3 m
-AA制 3 n
-4s店 2 n
-AA制 1 f
+version https://git-lfs.github.com/spec/v1
+oid sha256:68e3194dee424454ec40af00abe9ac235660039d7fb05616a194435480fb9ced
+size 73

@@ -1,5 +1,3 @@
-/app/paddlepaddle-2.3.2-cp38-cp38-linux_x86_64.whl
-matplotlib==3.4.1
-numpy==1.20.2
-pandas==1.1.5
-seaborn==0.12.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:2527dcc912eb09ade129bf2f1215812aa46061e097be7311acdfad2f430cfd34
+size 118

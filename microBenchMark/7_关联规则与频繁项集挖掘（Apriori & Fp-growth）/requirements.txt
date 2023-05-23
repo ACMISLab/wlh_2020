@@ -1,3 +1,3 @@
-efficient_apriori==2.0.1
-pandas==1.1.5
-pyfpgrowth==1.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b6a4007c3e09ed27083fc94a4c1797578a5c4275d06edf8bbb937a4d8628b05
+size 56

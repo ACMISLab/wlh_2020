@@ -1,3 +1,3 @@
-matplotlib==3.4.1
-numpy==1.20.2
-pandas==1.1.5
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f936433ed2af149efb88dc6a4b88cb2a8046827a9310b86dddbcf7fbe5ba09a
+size 47

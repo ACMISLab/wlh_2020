@@ -1,2 +1,3 @@
-matplotlib==3.4.1
-numpy==1.20.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:1df6a618fee287e06b771a3c3b8e34003ea03889ee2c03198882820cad440aef
+size 32

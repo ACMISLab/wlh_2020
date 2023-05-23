@@ -1,2 +1,3 @@
-/app/paddlepaddle-2.3.2-cp38-cp38-linux_x86_64.whl
-numpy==1.20.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:2de5f500f463a2ffa801a7adad78c3f79949d1f4f6041a8968b8b695e2b707a3
+size 65

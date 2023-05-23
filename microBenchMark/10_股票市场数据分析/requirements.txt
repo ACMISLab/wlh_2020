@@ -1,4 +1,3 @@
-matplotlib==3.4.1
-pandas==1.1.5
-pandas_datareader==0.10.0
-seaborn==0.12.1
+version https://git-lfs.github.com/spec/v1
+oid sha256:056d027f2388f66abec38bb735116c7e212edf73d5ebcab97f3d6ab5a4d7082a
+size 76
