@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title></title>
+    <script>
+      window.meedu_app_url = "http://127.0.0.1:8000";
+    </script>
+
+    <link
+      crossorigin="anonymous"
+      integrity="sha512-tcc7vFNH1Do6lQ6pEarUuoDwzkyscSoUKhI0BUUHuM2VG8KTIm3URTNt2DZG5pAB3rYG/9Xlskjqu5yuapkh9Q=="
+      href="https://lib.baomitu.com/highlight.js/9.18.5/styles/a11y-dark.min.css"
+      rel="stylesheet"
+    />
+    <link
+      crossorigin="anonymous"
+      integrity="sha512-BiJq/S3Wl+GAHtgicWXCK4s+FLFRsDyDkBz8jFfSC5ZlZ45FPlsqc8xB4UUlKUOyVX7iq2xEoOJGKNcW98rQdA=="
+      href="https://lib.baomitu.com/KaTeX/0.13.13/katex.min.css"
+      rel="stylesheet"
+    />
+
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-NowxCVrymxfs88Gx+ygXX3HCvpP7JE1nsDUuIshgWg2gO2eFCaePIdAuOfnG6ZjM"
+      src="https://lib.baomitu.com/hls.js/8.0.0-beta.3/hls.min.js"
+    ></script>
+    <script src="./js/DPlayer.min.js" defer></script>
+
+    <script
+      crossorigin="anonymous"
+      integrity="sha512-W8vWEBEKq60HQU2kxups8aE9ZoxO4x7YLQ+UQxbPqbO78ShB13wbXDdPF3aZDvMik4dsg/BKgvcatFU5uzk1Qw=="
+      src="https://lib.baomitu.com/highlight.js/9.18.5/highlight.min.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      integrity="sha512-TFaeuT3cYzCD8XaZh7t7f+e7AdCB3SuAvV4hEPwhysrbHSK0SXUhXJfv53fnWCMWmw2/uMHgxuzSlcrW+4PSdg=="
+      src="https://lib.baomitu.com/KaTeX/0.13.13/katex.min.js"
+    ></script>
+    <script
+      crossorigin="anonymous"
+      integrity="sha512-qUcJ7glnrYmTQFnpw3NU7vXl1QoDHDBQqickUfEAgUyDiueYv9/UVtBAQr/3bs0Eim0BF7LvKd2QbtDPi+YOjg=="
+      src="https://lib.baomitu.com/KaTeX/0.13.13/contrib/auto-render.js"
+    ></script>
+
+    <style type="text/css">
+      @keyframes ldio-s5k640mqbkh {
+        0% {
+          opacity: 1;
+        }
+
+        100% {
+          opacity: 0;
+        }
+      }
+
+      #meedu-loading-box {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        z-index: 9999;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 200px;
+      }
+
+      .ldio-s5k640mqbkh {
+        display: inline-block;
+      }
+
+      .ldio-s5k640mqbkh div {
+        left: 47px;
+        top: 24px;
+        position: absolute;
+        animation: ldio-s5k640mqbkh linear 1.4925373134328357s infinite;
+        background: #3ca7fa;
+        width: 6px;
+        height: 12px;
+        border-radius: 3px / 6px;
+        transform-origin: 3px 26px;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(1) {
+        transform: rotate(0deg);
+        animation-delay: -1.3681592039800994s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(2) {
+        transform: rotate(30deg);
+        animation-delay: -1.243781094527363s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(3) {
+        transform: rotate(60deg);
+        animation-delay: -1.1194029850746268s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(4) {
+        transform: rotate(90deg);
+        animation-delay: -0.9950248756218905s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(5) {
+        transform: rotate(120deg);
+        animation-delay: -0.8706467661691542s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(6) {
+        transform: rotate(150deg);
+        animation-delay: -0.7462686567164178s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(7) {
+        transform: rotate(180deg);
+        animation-delay: -0.6218905472636815s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(8) {
+        transform: rotate(210deg);
+        animation-delay: -0.49751243781094523s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(9) {
+        transform: rotate(240deg);
+        animation-delay: -0.3731343283582089s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(10) {
+        transform: rotate(270deg);
+        animation-delay: -0.24875621890547261s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(11) {
+        transform: rotate(300deg);
+        animation-delay: -0.12437810945273631s;
+        background: #3ca7fa;
+      }
+
+      .ldio-s5k640mqbkh div:nth-child(12) {
+        transform: rotate(330deg);
+        animation-delay: 0s;
+        background: #3ca7fa;
+      }
+
+      .loadingio-spinner-spinner-u50r3zm7s6r {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        overflow: hidden;
+        background: none;
+      }
+
+      .ldio-s5k640mqbkh {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform: translateZ(0) scale(1);
+        backface-visibility: hidden;
+        transform-origin: 0 0;
+        /* see note above */
+      }
+
+      .ldio-s5k640mqbkh div {
+        box-sizing: content-box;
+      }
+
+      /* generated by https://loading.io/ */
+    </style>
+  </head>
+
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+
+    <div id="meedu-loading-box">
+      <div class="loadingio-spinner-spinner-u50r3zm7s6r">
+        <div class="ldio-s5k640mqbkh">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
